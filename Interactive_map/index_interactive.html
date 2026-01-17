@@ -375,7 +375,7 @@ const layerDefinitions = {
   popdens: {
     sourceId: 'popdens-src',                       // Internal ID for the data source
     layerId: 'popdens-layer',                      // Internal ID for the map layer
-    url: '/interactive_map_data/dimoi_density_wgs84.geojson',        // 🌍 Path to your file
+    url: 'data_interactive/dimoi_density_wgs84.geojson',        // 🌍 Path to your file
     dataField: 'DENSITY'                           // 🌍 Column name in your GeoJSON
   },
   // Dasymmetric map layer (population density by land cover zone)
@@ -389,7 +389,7 @@ const layerDefinitions = {
   poipop: {
     sourceId: 'poipop-src',
     layerId: 'poipop-layer',
-    url: '/interactive_map_data/dimoi_pop_number.geojson',        // 🌍 Path to your file
+    url: 'data_interactive/dimoi_pop_number.geojson',        // 🌍 Path to your file
     dataField: 'POPMUN',                           // 🌍 Column name in your GeoJSON
     maxValueApprox: 160000                         // 🌍 Set the maximum population value (for scaling circles)
   },
@@ -397,13 +397,13 @@ const layerDefinitions = {
   contours: {
     sourceId: 'contours-src',
     layerId: 'contours-layer',
-    url: '/interactive_map_data/contours_200_wgs84.geojson'     // 🌍 Path to your file
+    url: 'data_interactive/contours_200_wgs84.geojson'     // 🌍 Path to your file
   },
   // Dot density layer (each dot represents X people)
   dots: {
     sourceId: 'dots-src',
     layerId: 'dots-layer',
-    url: '/interactive_map_data/dots_500_wgs84.geojson'          // 🌍 Path to your file
+    url: 'data_interactive/dots_500_wgs84.geojson'          // 🌍 Path to your file
   },
   // Boundaries layer (municipal borders)
   boundaries: {
@@ -1704,6 +1704,7 @@ console.log(layerDefinitions);
 -->
 </body>
 </html>
+
 
 
 
