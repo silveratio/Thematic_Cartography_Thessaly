@@ -1,6 +1,6 @@
 # Thematic_Cartography_Thessaly
 
-This repository contains contains two maps, the Interactive map and the Timelapse map, in HTML files and their respective data necessary to run.
+This repository contains two maps, the Interactive map and the Timelapse map, in HTML files and their respective data necessary to run.
 
 The Interactive map depicts population statistics for the administrative region of Thessaly, Greece, with elements that the user can adjust.
 
